@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Questrial', sans-serif;
+}
+
+.second-section{
+	background: linear-gradient(45deg, #FF8B00 25%, #037470 0, #037470 50%,
+                                      #FF8B00 0, #FF8B00 75%, #037470 0);
+  background-size: 90px 90px;
+	height: 100vh;
+	width: 100%;
+	color: white;
+	font-weight: lighter;
+  font-size: 250%;
+  text-align: center;
+}
+
+.name{
+	text-align: center;
+}
+
+.first-section{
+	background-color: #3CAFB5;
+	height: 100vh;
+	width: 100%;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 30px;
+}
